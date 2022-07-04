@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+</head>
+<body background="https://th.bing.com/th/id/R.a8ec36b697d8ce2f96e79149b97055dd?rik=7EqwDB2k%2bVuQYw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fvWvbggG.jpg&ehk=QB93jStMKLbAbBxzHdrimwpQL0PYdz57v9PcNdPoRBw%3d&risl=&pid=ImgRaw&r=0">
+<center>
+  	<h3 class="btn btn-primary heading" style="font-weight:bold"><u>AI DJ WEB APP</u>
+	    <br>
+	    <span class="note"> <b>NOTE</b> - The <b>left hand wrist</b> will control the <b>volume of the song</b> and <b>right hand wrist</b> will control the <b>speed.</b></span>
+  	</h3>
+
+    <div class="speed"> 
+      <img src="disk.gif" class="div_image">
+      <br>
+      <h3 class="btn btn-danger" id="speed_button"> Speed </h3>
+    </div>
+
+    <div class="volume"> 
+      <img src="disk.gif" class="div_image">
+      <br>
+      <h3 class="btn btn-danger" id="volume_button"> Volume </h3>
+    </div>
+
+	<br><br>
+  <button class="btn btn-success play_button" onclick="play()" > PLAY </button>
+  <button class="btn btn-warning stop_button" onclick="stop()"> STOP </button>
+ 
+
+  <div class="footer"> Developed By - Saisha Mahalle </div>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
